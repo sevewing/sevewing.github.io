@@ -8,19 +8,17 @@ body {
     -o-background-size: cover;
 }
 
-#right-content{
+.right-content{
     background-color: white ;
     margin-left: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 40px;
+    padding: 40px 90px 40px 90px;
 }
 
 .progress_bottom{
     margin-bottom: 4%;
 }
 
-h2.blue {
+h1.blue {
     color:#003b8e;
     background: none;
 }

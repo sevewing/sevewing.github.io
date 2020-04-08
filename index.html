@@ -54,7 +54,7 @@
 <div id="main" class="container-fluid">
     <div class="row justify-content-md-center">
         <!-- Left Content -->
-        <div class=" card border-1 shadow my-5 col-2" style="background-color: lightgray; height: 2000px">
+        <div class=" card border-0 shadow my-5 col-2" style="background-color: lightgray; ">
             <div class="row justify-content-md-center">
                 <div class="col-12 text-center">
                     <img src="img/SP-Levis.jpg" class="img-fluid rounded-circle" width="50%"
@@ -85,7 +85,6 @@
                             <p>Beijing, China</p>
                         </div>
                     </div>
-                    <hr>
                     <hr>
                     <!-- Skills bar -->
                     <div class="row justify-content-md-center" style="margin-top: 5%">
@@ -131,94 +130,153 @@
         <!-- /Left Content -->
 
         <!-- Right Content -->
-        <div id="right-content" class=" card border-1 shadow my-5 col-9" >
-            <!-- About me-->
-            <div class="row justify-content-md-center">
-                <div class="col-12">
-                    <div class="row justify-content-md-left">
-                        <div class="col-12">
-                            <h1 class="display-4 blue">About Me</h1>
-                            <hr class="hr_blue"/>
+        <div class="row  justify-content-md-center my-5 col-9">
+            <div class="col-12">
+                <!-- About me-->
+                <div class="row justify-content-md-center card border-1 shadow my-1 right-content">
+                    <div class="col-12">
+                        <h1 class="display-4 blue">About Me</h1>
+<!--                        <hr class="hr_blue"/>-->
+                        <div class="row justify-content-md-between">
+                            <div class="col-6">
+                                <p class="lead">aaa</p>
+                            </div>
+                            <div class=" card border-0 my-2 col-5"
+                                 style="padding-top: 2%">
+                                <div class="row justify-content-md-around tag">
+                                    <span class="badge badge-secondary tag col-2">Python</span>
+                                    <span class="badge badge-success tag col-2">Java</span>
+                                    <span class="badge badge-danger tag col-2">Scala</span>
+                                    <span class="badge badge-warning tag col-3">Javascript</span>
+                                </div>
+                                <div class="row justify-content-md-around tag">
+                                    <span class="badge badge-danger tag col-4">MachineLearning</span>
+                                    <span class="badge badge-warning tag col-3">DataMining</span>
+                                    <span class="badge badge-light tag col-4">ImageAnalysis</span>
+                                </div>
+                                <div class="row justify-content-md-around tag">
+                                    <span class="badge badge-info tag col-4">DeepLearning</span>
+                                    <span class="badge badge-info tag col-2">SQL</span>
+                                    <span class="badge badge-info tag col-2">MySQL</span>
+                                    <span class="badge badge-light tag col-2">Oracle</span>
+                                </div>
+                                <div class="row justify-content-md-around tag">
+                                    <span class="badge badge-dark tag col-3">WebGIS</span>
+                                    <span class="badge badge-danger tag col-3">ArcGIS</span>
+                                    <span class="badge badge-success tag col-3">Leaflet.js</span>
+                                </div>
+                                <div class="row justify-content-md-around tag">
+                                    <span class="badge badge-dark tag col-3">BigData</span>
+                                    <span class="badge badge-danger tag col-2">Spark</span>
+                                    <span class="badge badge-success tag col-3">AWSCloud</span>
+                                </div>
+                                <div class="row justify-content-md-around tag">
+                                    <span class="badge badge-info tag col-2">Git</span>
+                                    <span class="badge badge-secondary tag col-3">Docker</span>
+                                    <span class="badge badge-secondary tag col-3">Linux</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <!-- /About me-->
+                <!-- Education-->
+                <div class="row justify-content-md-center card border-1 shadow my-1 right-content">
+                    <div class="col-12">
+                        <h1 class="display-4 blue">Education</h1>
+                        <hr class="hr_blue"/>
+                        <div class="row justify-content-md-left">
 
-                    <div class="row justify-content-md-between">
-                        <div class="col-6">
-                            <p class="lead">aaa</p>
-                        </div>
-                        <div class=" card border-0 my-2 col-4"
-                             style="background-color: lightgray; color: white; padding-top: 2%">
-                            <div class="row justify-content-md-around tag">
-                                <span class="badge badge-secondary tag col-2">Python</span>
-                                <span class="badge badge-success tag col-2">Java</span>
-                                <span class="badge badge-danger tag col-2">Scala</span>
-                                <span class="badge badge-warning tag col-3">Javascript</span>
+                            <div class="card mb-3">
+                                <div class="row no-gutters">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">IT University of Copenhagen</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Msc in Software Design</h6>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/ITU.jpeg" class="card-img">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="row justify-content-md-around tag">
-                                <span class="badge badge-danger tag col-4">MachineLearning</span>
-                                <span class="badge badge-warning tag col-3">DataMining</span>
-                                <span class="badge badge-light tag col-4">ImageAnalysis</span>
-                            </div>
-                            <div class="row justify-content-md-around tag">
-                                <span class="badge badge-info tag col-4">DeepLearning</span>
-                                <span class="badge badge-info tag col-2">SQL</span>
-                                <span class="badge badge-info tag col-2">MySQL</span>
-                                <span class="badge badge-light tag col-2">Oracle</span>
-                            </div>
-                            <div class="row justify-content-md-around tag">
-                                <span class="badge badge-dark tag col-3">WebGIS</span>
-                                <span class="badge badge-danger tag col-3">ArcGIS</span>
-                                <span class="badge badge-success tag col-3">Leaflet.js</span>
-                            </div>
-                            <div class="row justify-content-md-around tag">
-                                <span class="badge badge-dark tag col-3">BigData</span>
-                                <span class="badge badge-danger tag col-2">Spark</span>
-                                <span class="badge badge-success tag col-3">AWSCloud</span>
-                            </div>
-                            <div class="row justify-content-md-around tag">
-                                <span class="badge badge-info tag col-2">Git</span>
-                                <span class="badge badge-secondary tag col-3">Docker</span>
-                                <span class="badge badge-secondary tag col-3">Linux</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /About me-->
-            <!-- Education-->
-            <div class="row justify-content-md-center" style="margin-top: 5%">
-                <div class="col-12">
-                    <div class="row justify-content-md-left">
-                        <div class="col-12">
-                            <h1 class="display-4 blue">Education</h1>
-                            <hr class="hr_blue"/>
-                        </div>
-                    </div>
-                    <div class="row justify-content-md-left">
-                        <p class="lead">aaa</p>
-                    </div>
-                </div>
-            </div>
-            <!-- /Education-->
 
-            <!-- Experience-->
-            <div class="row justify-content-md-center" style="margin-top:5%">
-                <div class="col-12">
-                    <div class="row justify-content-md-left">
-                        <div class="col-12">
-                            <h1 class="display-4 blue">Experience</h1>
-                            <hr class="hr_blue"/>
+                            <div class="card mb-3">
+                                <div class="row no-gutters">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Beijing University of Civil Engineering and Architecture</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Bsc in Geographic Information System</h6>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/Bucea.jpg" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="row no-gutters">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">University of Copenhagen</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Guest in Computer Science</h6>
+                                            <h5 class="card-title">APTECH</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Trainee in JavaWeb Development</h6>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/edu.jpg" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="row justify-content-md-left">
-                        <p class="lead">aaa</p>
+                </div>
+                <!-- /Education-->
+                <!-- Experience-->
+                <div class="row justify-content-md-center card border-1 shadow my-1 right-content">
+                    <div class="col-12">
+                        <h1 class="display-4 blue">Experience</h1>
+<!--                        <hr class="hr_blue"/>-->
+                        <div class="row justify-content-md-left">
+                            <div class="card col-4" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Freelancer</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                            <div class="card col-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">WebGIS Developer</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- /Experience-->
+
             </div>
-            <!-- /Experience-->
         </div>
-        <!-- Right Content -->
+
+
     </div>
+    <!-- Right Content -->
+</div>
 </div>
 
 <div style="position: absolute;z-index: -1; top: 40%; left: 48%;">
