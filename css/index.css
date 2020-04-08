@@ -1,0 +1,56 @@
+
+/* Set a background image by replacing the URL below */
+body {
+    background: url('../img/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#right-content{
+    background-color: white ;
+    margin-left: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+.progress_bottom{
+    margin-bottom: 4%;
+}
+
+h2.blue {
+    color:#003b8e;
+    background: none;
+}
+
+.chip.chip-md {
+    height: 42px;
+    line-height: 42px;
+    border-radius: 21px;
+}
+
+.chip.chip-md .close {
+    height: 42px;
+    line-height: 42px;
+    border-radius: 21px;
+}
+.center {
+    text-align:center;
+}
+
+.tag{
+    height: 35px;
+    margin-bottom: 4%;
+}
+
+span.tag {
+    text-align: center;
+    font-size: medium;
+ }
+
+.hr_blue{
+    border-color: #003b8e;
+    border-width: 1px;
+}
